@@ -5,7 +5,7 @@ import js from "./imagens/icon-js.svg";
 import node from "./imagens/icon-node.svg"; 
 import react from "./imagens/icon-react.svg"; 
 import sql from "./imagens/icon-sql.svg"; 
-import avatar from "./imagens/Gigantesco.jpg" 
+import avatar from "./imagens/Mordecai.png" 
 
 
 function Sobre() {
@@ -16,11 +16,11 @@ function Sobre() {
                 <img src={avatar} className={styles.avatar} alt="Avatar" />
                 <div className={styles.textos}>
                     <h2>Sobre</h2>
-                    <p>Sou <span>Meu nome</span></p> <br />
-                    <strong>Dev</strong> <br />
-                    <p>Trabalho com desenvolvimento web desde...</p>
-                    <p>Gosto muito da área</p>
-                    <p>Especializado em engenharia de software</p>
+                    <p>Sou <span>Paulo Lucas</span></p> <br />
+                   {/*  <strong>Dev</strong> <br /> */}
+                    <p>Estudante de Programação Front-End</p>
+                    <p>Realizando faculdade de Ciência da Computação</p>
+                    {/* <p>Especializado em engenharia de software</p> */}
                 </div>
             </div>
 
